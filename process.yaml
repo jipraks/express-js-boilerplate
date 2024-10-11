@@ -1,0 +1,5 @@
+apps:
+  - script   : app.js
+    name     : 'aiyo-ridehail-service'
+    instances: 4
+    exec_mode: cluster
